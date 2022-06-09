@@ -3,7 +3,7 @@ import DownloadAds from './DownloadAds'
 
 const Hero = () => {
   return (
-    <div className="wrapper bg-[#081730] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative">
+    <div className="wrapper bg-[#081730] flex items-center justify-between z-[3] px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative">
         {/* left side */}
     <div className="heading flex flex-col items-start justify-center h-[100%] text-[3rem]">
         <span>

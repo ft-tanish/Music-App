@@ -3,7 +3,7 @@ import MusicPlayer from './MusicPlayer'
 
 const Search = () => {
   return (
-    <div className="search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] flex items-center justify-between round-b-[5rem]">
+    <div className="search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] flex items-center justify-between rounded-b-[5rem]">
         {/* left side */}
         <div className="left flex-1">
             <img

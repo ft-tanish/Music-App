@@ -4,6 +4,8 @@ import './App.css';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Search from './components/Search';
+import Download from './components/Download';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Hero/>
       <Experience/>
       <Search/>
+      <Download/>
+      <Footer/>
     </div>
   );
 }

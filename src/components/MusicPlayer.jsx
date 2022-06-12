@@ -1,41 +1,42 @@
-import React from 'react'
+import React from "react";
 
-const MusicPlayer = () => {
+function MusicPlayer() {
   return (
     <div className="musicPlayer flex flex-col px-5 w-[100%] border-2 border-black py-3 bg-[#232A4E] rounded-xl mt-5">
-        {/* Upper Part */}
-        <div className="upperPart flex item-center justify-between">
-            {/* profile */}
-            <div className="profile flex">
-                <img 
-                src={require("../img/Mask Group 23.png")} 
-                alt=""
-                className="w-[2.5rem] h-[2.5rem] border-2 border-white rounded-full"
-                />
-                <div className="details flex flex-col ml-4">
-                    <span className="text-[1rem]">Tristam Bone Dry</span>
-                    <span className="text-sm text-gray-500">Unknown Artist</span>
-
-                </div>
-            </div>
-            <div>
-                <img src={require("../img/path.png")} alt="" className=" h-[1rem] "/>
-            </div>
+      {/* Upper Part */}
+      <div className="upperPart flex items-center justify-between">
+        {/* profile */}
+        <div className="profile flex">
+          <img
+            src={require("../img/Mask Group 23.png")}
+            alt=""
+            className="w-[2.5rem] h-[2.5rem] border-2 border-white rounded-full"
+          />
+          <div className="detailsf flex flex-col ml-4">
+            <span className="text-[1rem]">Tristam Bone Dry</span>
+            <span className="text-sm text-gray-500">Unknown Artist</span>
+          </div>
         </div>
-        {/* lower part */}
-        <div className="lowerPart flex items-center justify-between mt-5">
-            <div className="track flex justify-between text-sm text-gray-500 flex-[2] items-center">
-                <span>2: 30</span>
-                <img
-                src={require("../img/Group 9.png")}
-                alt=""
-                className='w-[16rem]'/>
-                <span>4: 30</span>
-            </div>
-            {/* controls */}
-            <div className="controls flex-1 flex items-center justify-around">
-                {/* previous arrow  */}
-            <svg width="10.455" height="12.442" viewBox="0 0 10.455 12.442">
+        <div>
+          <img src={require("../img/path.png")} alt="" className=" h-[1rem] " />
+        </div>
+      </div>
+      {/* lower part */}
+      <div className="lowerPart flex items-center justify-between mt-5">
+        {/* track */}
+        <div className="track flex justify-between text-sm text-gray-500 flex-[2] items-center">
+          <span>2: 30</span>
+          <img
+            src={require("../img/Group 9.png")}
+            alt=""
+            className="w-[16rem]"
+          />
+          <span>4: 30</span>
+        </div>
+        {/* Controls */}
+        <div className="controls flex-1 flex items-center justify-around">
+          {/* previous arrow */}
+          <svg width="10.455" height="12.442" viewBox="0 0 10.455 12.442">
             <path
               d="M62.208,5.066,69.119.334A1.687,1.687,0,0,1,70.027,0c.517,0,.836.415.836,1.109V11.334c0,.693-.319,1.107-.835,1.107a1.673,1.673,0,0,1-.9-.335L62.211,7.376A1.419,1.419,0,0,1,61.52,6.22,1.414,1.414,0,0,1,62.208,5.066Z"
               transform="translate(-61.52 0)"
@@ -134,10 +135,10 @@ const MusicPlayer = () => {
               fill="#4b537b"
             />
           </svg>
-            </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default MusicPlayer
+export default MusicPlayer;

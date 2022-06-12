@@ -1,7 +1,7 @@
 import React from 'react'
 
-const CenterMenu = () => {
-    const liStyle = "mr-[3rem] hover:cursor-pointer";
+function CenterMenu() {
+    const liStyle = "mr-[3rem] hover:cursor-pointer"
   return (
     <div className="menu flex">
         <ul className='flex w-[100%] justify-between'>
@@ -11,7 +11,7 @@ const CenterMenu = () => {
             <li className={liStyle}>Event Shedule</li>
         </ul>
     </div>
-  )
+    )
 }
 
 export default CenterMenu

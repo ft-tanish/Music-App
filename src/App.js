@@ -1,23 +1,22 @@
-import Header from './components/Header';
-import './index.css';
 import './App.css';
-import Hero from './components/Hero';
-import Experience from './components/Experience';
-import Search from './components/Search';
 import Download from './components/Download';
-import Footer from './Footer';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Search from './components/Search';
 
 function App() {
   return (
     <div className="App text-white overflow-hidden">
-      <Header/>
-      <Hero/>
-      <Experience/>
-      <Search/>
-      <Download/>
-      <Footer/>
+        <Header/>
+        <Hero/>
+        <Experience/>
+        <Search/>
+        <Download/>
+        <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
